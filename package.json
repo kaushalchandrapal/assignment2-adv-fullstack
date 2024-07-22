@@ -1,0 +1,23 @@
+{
+  "name": "assignment2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "concurrently \"npm start --prefix server\" \"npm start --prefix client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaushalchandrapal/assignment2-adv-fullstack.git"
+  },
+  "author": "Kaushal Chandrapal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kaushalchandrapal/assignment2-adv-fullstack/issues"
+  },
+  "homepage": "https://github.com/kaushalchandrapal/assignment2-adv-fullstack#readme",
+  "description": "",
+  "dependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
